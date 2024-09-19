@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="11-to-do-list.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Todo List Practice</h1>
+    <div class="input-group">
+      <input placeholder="Add a task" class="js-name-input" onkeydown="checkIfClear(event)">
+      <input type="date" class="js-date">
+      <button class="add" onclick="addTask()">Add</button>
+    </div>
+    <div class="js-div"></div>
+  </div>
+  <script src="11-to-do-list.js"></script>
+</body>
+</html>
